@@ -6,15 +6,11 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
 
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.List;
 
 @Repository
 class AlienRepo {
 
-    @Autowired
     private JdbcTemplate jdbcTemplate;
 
     @Autowired
